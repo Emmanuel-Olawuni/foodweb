@@ -12,13 +12,13 @@ const About = () => {
       <div className="flex  m-auto items-center justify-around">
         <div className="parent">
           <div className="div1">
-            <Image src={Image1} height={300} width={300} />
+            <Image src={Image1} height={300} width={300} alt="image-food" />
           </div>
           <div className="div2">
-            <Image src={Image2} height={300} width={300} />
+            <Image src={Image2} height={300} width={300}  alt="image-food"/>
           </div>
           <div className="div3">
-            <Image src={Image3} height={300} width={300} />
+            <Image src={Image3} height={300} width={300} alt="image-food" />
           </div>
         </div>
 
@@ -44,7 +44,7 @@ const About = () => {
                 <div className="w-[50px] h-[50px] rounded-full bg-green grid place-items-center">
                   <BsPlay color="white" size={30} className="" />
                 </div>
-                <p className=" text-gray-900 font-inter font-semibold text-sm">
+                <p className=" text-gray-900 font-poppins font-semibold text-sm">
                   Watch Video
                 </p>
               </div>

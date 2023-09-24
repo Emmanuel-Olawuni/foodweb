@@ -3,6 +3,7 @@ import Category from '@/components/Category'
 import Choose from '@/components/Choose'
 import Foodmenu from '@/components/Foodmenu'
 import Hero from '@/components/Hero'
+import Team from '@/components/Team'
 import Background from '@/components/background'
 
 
@@ -15,6 +16,7 @@ export default function Home() {
     <Category />
     <Choose />
     <Foodmenu />
+    <Team/>
     </>
   )
 }

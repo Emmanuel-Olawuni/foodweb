@@ -15,13 +15,13 @@ const Choose = () => {
       <div className=" flex">
         <div className="imagecontainer">
           <div className="choose1">
-            <Image src={Hand} width={300} />
+            <Image src={Hand} width={300} alt="food" />
           </div>
           <div className="choose2 ">
-            <Image src={Image3} priority />
+            <Image src={Image3} priority alt="food" />
           </div>
         </div>
-        <div className="w-1/3 flex gap-4 flex-col">
+        <div className="w-1/3 m-auto flex gap-4 flex-col">
           <h4 className=" text-2xl font-miniver font-normal text-green heading">
             WHy Choose Us
           </h4>
@@ -29,27 +29,27 @@ const Choose = () => {
             Why We are the best
           </p>
 
-          <p className=" font-inter text-gray-600 font-medium">
+          <p className=" font-poppins text-gray-700 font-medium">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae,
             ducimus saepe sapiente eos laboriosam ipsa amet corrupti temporibus
             quod, delectus voluptates est. Voluptates alias suscipit iure ipsum
             earum, officiis eius!
           </p>
-          <p className=" font-inter text-gray-600 font-medium">
+          <p className=" font-poppins text-gray-700 font-medium">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae,
             ducimus saepe sapiente eos.
           </p>
-          <div class="choose-card">
-            <div class="cards card-1 font-inter font-semibold text-gray-700  shadow-gray-300 shadow-md">
+          <div className="choose-card">
+            <div className="cards card-1 font-poppins font-semibold text-gray-900  shadow-gray-300 shadow-sm">
               <BsTruck size={30} /> Fast Delivery
             </div>
-            <div class="cards card-2 font-inter font-semibold text-gray-700  shadow-gray-300 shadow-md">
+            <div className="cards card-2 font-poppins font-semibold text-gray-900  shadow-gray-300 shadow-sm">
               <CiTimer size={30} /> 24/7 Service
             </div>
-            <div class="cards card-3 font-inter font-semibold text-gray-700  shadow-gray-300 shadow-md">
+            <div className="cards card-3 font-poppins font-semibold text-gray-900  shadow-gray-300 shadow-sm">
               <PiHamburgerLight size={30} /> Fresh Food
             </div>
-            <div class="cards card-4 font-inter font-semibold text-gray-700  shadow-gray-300 shadow-md">
+            <div className="cards card-4 font-poppins font-semibold text-gray-900  shadow-gray-300 shadow-sm">
               <LuMountain size={30} /> Quality Maintain
             </div>
           </div>

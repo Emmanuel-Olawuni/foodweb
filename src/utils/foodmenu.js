@@ -1,6 +1,8 @@
-export const MenuList = {
-  food: {
-    breakfast: [
+export const food = [
+  {
+    id: 1,
+    title: "Breakfast",
+    data: [
       {
         id: 1,
         name: "Scrambled Eggs",
@@ -80,9 +82,12 @@ export const MenuList = {
         description:
           "Crispy waffle topped with fresh berries and whipped cream.",
       },
-      // Add more breakfast items here
     ],
-    lunch: [
+  },
+  {
+    id: 2,
+    title: "lunch",
+    data: [
       {
         id: 6,
         name: "Grilled Chicken Salad",
@@ -118,9 +123,12 @@ export const MenuList = {
         calories: 180,
         description: "Assorted sushi rolls with soy sauce and wasabi.",
       },
-      // Add more lunch items here
     ],
-    dinner: [
+  },
+  {
+    id: 3,
+    title: "Dinner",
+    data: [
       {
         id: 11,
         name: "Salmon with Asparagus",
@@ -158,7 +166,11 @@ export const MenuList = {
       },
       // Add more dinner items here
     ],
-    dessert: [
+  },
+  {
+    id: 4,
+    title: "Desert",
+    data: [
       {
         id: 16,
         name: "Chocolate Cake",
@@ -219,7 +231,11 @@ export const MenuList = {
           "Warm and gooey chocolate cake with a molten chocolate center.",
       },
     ],
-    drink: [
+  },
+  {
+    id: 5,
+    title: "Drinks",
+    data: [
       {
         id: 21,
         name: "Water",
@@ -279,4 +295,4 @@ export const MenuList = {
       },
     ],
   },
-};
+];

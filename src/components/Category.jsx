@@ -8,7 +8,7 @@ const Category = () => {
   return (
     <section className=" relative">
       <div className=" absolute top-[-70px] left-[-170px] z-10 object-contain h-[220px] w-[220px]">
-        <Image src={leftImage} className=" object-contain" />
+        <Image src={leftImage} className=" object-contain" alt="food" />
       </div>
 
       <FlowerHead title='Food category'/>

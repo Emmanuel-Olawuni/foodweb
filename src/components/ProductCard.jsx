@@ -8,7 +8,7 @@ const ProductCard = () => {
       <div className="productCardImag object-contain">
         <Image
           src={ProductImage}
-          className=" h-[300px] w-[300px] object-contain"
+          className=" h-[300px] w-[300px] object-contain" alt="food"
         />
       </div>
       <div className="productCardText flex flex-col items-center  justify-center text-center px-1 py-2">
