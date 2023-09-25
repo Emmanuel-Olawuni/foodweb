@@ -6,19 +6,22 @@ import { BsTruck } from "react-icons/bs";
 import { PiHamburgerLight } from "react-icons/pi";
 import { CiTimer } from "react-icons/ci";
 import { LuMountain } from "react-icons/lu";
-
+import Lettuce from "@/../public/images/leftImage2.png";
 
 
 const Choose = () => {
   return (
-    <section>
+    <section className=" mt-32">
       <div className=" flex">
-        <div className="imagecontainer">
+        <div className="imagecontainer relative">
           <div className="choose1">
             <Image src={Hand} width={300} alt="food" />
           </div>
           <div className="choose2 ">
             <Image src={Image3} priority alt="food" />
+          </div>
+          <div className=" absolute -right-6 -top-4 -z-10">
+            <Image src={Lettuce} alt="lettuce" />
           </div>
         </div>
         <div className="w-1/3 m-auto flex gap-4 flex-col">
@@ -29,13 +32,13 @@ const Choose = () => {
             Why We are the best
           </p>
 
-          <p className=" font-poppins text-gray-700 font-medium">
+          <p className=" font-poppins text-gray-600 font-medium">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae,
             ducimus saepe sapiente eos laboriosam ipsa amet corrupti temporibus
             quod, delectus voluptates est. Voluptates alias suscipit iure ipsum
             earum, officiis eius!
           </p>
-          <p className=" font-poppins text-gray-700 font-medium">
+          <p className=" font-poppins text-gray-600 font-medium">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae,
             ducimus saepe sapiente eos.
           </p>

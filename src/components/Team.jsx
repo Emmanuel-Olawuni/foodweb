@@ -1,6 +1,5 @@
 import React from 'react'
-import team from "@/../public/images/team.png";
-import Image from 'next/image';
+import TeamCard from './teamCard/TeamCard';
 
 const Team = () => {
   return (
@@ -9,6 +8,8 @@ const Team = () => {
             <h4 className=' font-inter font-extrabold text-4xl  text-white '>Team Member</h4>
             <p className=' balance font-poppins font-normal text-white text-sm'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi hic.</p>
         </div>
+
+        <TeamCard />
        
     </section>
   )

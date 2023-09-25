@@ -7,7 +7,7 @@ import { Inter, Miniver, Poppins } from "next/font/google";
 const inter = Inter({
   subsets: ["latin"],
   variable: "--inter",
-  weight: ["100", "300", "400", "500", "600", "700", "800", "900"],
+  weight: ["100", "300", "400", "500", "600", "700", "800", "900" ],
 });
 
 const miniver = Miniver({

@@ -6,18 +6,18 @@ const TabData = ({data}) => {
   return (
     <div className=" flex justify-between p-3 border-b border-gray-500 border-opacity-30">
       <div className=" flex flex-col">
-        <p className=" font-inter font-bold text-gray-950 text-lg">
+        <p className=" font-poppins font-bold text-gray-900 text-lg">
  
          {name}
         </p>
-        <p className=" font-inter font-semibold text-gray-600 text-base">
+        <p className=" font-poppins font-semibold text-gray-600 text-base">
       {description}
         </p>
-        <p className=" font-inter font-semibold text-gray-500 text-sm">
+        <p className=" font-poppins font-medium text-gray-500 text-sm">
           {calories} CAL
         </p>
       </div>
-      <div className=" text-green  font-poppins font-semibold">${price}</div>
+      <div className=" text-green  font-poppins font-bold text-lg">${price}</div>
     </div>
   );
 };

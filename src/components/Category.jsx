@@ -11,9 +11,15 @@ const Category = () => {
         <Image src={leftImage} className=" object-contain" alt="food" />
       </div>
 
-      <FlowerHead title='Food category'/>
+      <FlowerHead title="Food category" />
 
-      <ProductCard />
+      <div className=" flex justify-around">
+        <ProductCard title='Grand Italiano' items='26' />
+        <ProductCard title='pene Salmone' items='26' />
+        <ProductCard title='Pepperoni tagli' items='26' />
+        <ProductCard title='Spaghetti' items='26' />
+      
+      </div>
     </section>
   );
 };

@@ -12,7 +12,7 @@ const Tab = () => {
   };
   return (
     <div>
-      <div className="tabHeader flex items-center p-2  cursor-pointer -tracking-tighter justify-center border-b font-inter text-base font-semibold capitalize text-gray-700 gap-3 first-letter:capitalize">
+      <div className="tabHeader flex items-center p-2  cursor-pointer -tracking-tighter justify-center border-b font-poppins text-base font-medium capitalize text-gray-700 gap-3 first-letter:capitalize">
         {food.map((x) => (
           <p
             key={x.id}
