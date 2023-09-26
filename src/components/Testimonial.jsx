@@ -8,8 +8,8 @@ import { BsStarFill } from "react-icons/bs";
 const Testimonial = () => {
   return (
     <section className=" mt-36">
-      <div className="flex gap-32 justify-between select-none">
-        <div className="w-1/2 flex flex-col gap-4">
+      <div className="flex gap-32 justify-between select-none flex-col md:flex-row">
+        <div className="md:w-1/2 flex flex-col gap-4">
           <h4 className=" text-2xl font-miniver font-normal text-green heading">
             Testimonial
           </h4>

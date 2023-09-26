@@ -12,7 +12,7 @@ import Lettuce from "@/../public/images/leftImage2.png";
 const Choose = () => {
   return (
     <section className=" mt-32">
-      <div className=" flex">
+      <div className=" flex flex-col md:flex-row">
         <div className="imagecontainer relative">
           <div className="choose1">
             <Image src={Hand} width={300} alt="food" />
@@ -24,7 +24,7 @@ const Choose = () => {
             <Image src={Lettuce} alt="lettuce" />
           </div>
         </div>
-        <div className="w-1/3 m-auto flex gap-4 flex-col">
+        <div className="md:w-1/3 m-auto flex gap-4 flex-col">
           <h4 className=" text-2xl font-miniver font-normal text-green heading">
             WHy Choose Us
           </h4>

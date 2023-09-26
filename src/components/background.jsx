@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const Background = () => {
   return (
-    <div className=" absolute  right-0 top-0 z-0 pointer-events-none">
+    <div className="hidden md:block absolute  right-0 top-0 z-0 pointer-events-none">
       <Image
         src={Bg}
         height={1000}

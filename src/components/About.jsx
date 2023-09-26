@@ -9,7 +9,7 @@ import { BsPlay } from "react-icons/bs";
 const About = () => {
   return (
     <section className=" mt-24">
-      <div className="flex  m-auto items-center justify-around">
+      <div className="flex flex-col md:flex-row m-auto items-center justify-around">
         <div className="parent">
           <div className="div1">
             <Image src={Image1} height={300} width={300} alt="image-food" />
@@ -22,7 +22,7 @@ const About = () => {
           </div>
         </div>
 
-        <div className="w-1/3 flex gap-4 flex-col">
+        <div className="md:w-1/3 flex gap-8 md:gap-4 flex-col">
           <h4 className=" text-2xl font-miniver font-normal text-green heading">
             About Us
           </h4>

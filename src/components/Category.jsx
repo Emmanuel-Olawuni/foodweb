@@ -13,7 +13,7 @@ const Category = () => {
 
       <FlowerHead title="Food category" />
 
-      <div className=" flex justify-around">
+      <div className=" flex justify-around items-center flex-col md:flex-row">
         <ProductCard title='Grand Italiano' items='26' />
         <ProductCard title='pene Salmone' items='26' />
         <ProductCard title='Pepperoni tagli' items='26' />
