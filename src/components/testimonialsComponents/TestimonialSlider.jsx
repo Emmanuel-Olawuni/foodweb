@@ -14,41 +14,41 @@ const testimonialData = [
     name: "Nini Oyindamola",
     job: "Customer",
     testimonial:
-      "        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ex exercitationem corrupti repellendus necessitatibus soluta dolorum natus assumenda ipsam! Ea ad perferendis placeat enim temporibus explicabo alias animi molestias? Cumque!",
+      " I stumbled upon this food website, and it has been a game-changer for me! The recipes are not only delicious but also easy to follow. I never considered myself a great cook, but now my friends and family think I'm a gourmet chef. Thanks to this website, I'm enjoying homemade meals like never before! ",
   },
   {
     id: 2,
     image: image2,
     name: "Esther Praise",
-    job: "Customer",
+    job: "Chef",
     testimonial:
-      "        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ex exercitationem corrupti repellendus necessitatibus soluta dolorum natus assumenda ipsam! Ea ad perferendis placeat enim temporibus explicabo alias animi molestias? Cumque!",
+      "  I can't thank this food website enough for revolutionizing my meal planning. The variety of recipes is outstanding, and the step-by-step instructions make cooking a breeze. My favorite part is the diverse range of cuisines and dietary options available. It caters to everyone's tastes and needs, making it my go-to source for cooking inspiration. ",
   },
   {
-    id: 1,
+    id: 3,
     image: image3,
     name: "Anuoluwapo Louis",
     job: "Customer",
     testimonial:
-      "        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ex exercitationem corrupti repellendus necessitatibus soluta dolorum natus assumenda ipsam! Ea ad perferendis placeat enim temporibus explicabo alias animi molestias? Cumque!",
-  },
+    "This food website is my go-to resource for culinary inspiration. The recipes are not only mouthwatering but also come with stunning food photography that makes me want to try every dish. The site's user-friendly interface and detailed ingredient lists make grocery shopping a breeze. Thanks to this website, I've expanded my culinary horizons and can confidently prepare restaurant-quality meals at home!"},
 ];
 const TestimonialSlider = () => {
-  const [activeSlider, setActiveSlider] = useState(1);
+  const [activeSlider, setActiveSlider] = useState(0);
   const decreaseState = () => {
-    const firstSlide = activeSlider === 1;
+    const firstSlide = activeSlider === 0;
     const newIndex = firstSlide ? testimonialData.length - 1 : activeSlider - 1;
     setActiveSlider(newIndex);
   };
   const increaseState = () => {
     const lastSlide = activeSlider === testimonialData.length - 1;
-    const newIndex = lastSlide ? 1 : activeSlider + 1;
+    const newIndex = lastSlide ? 0 : activeSlider + 1;
     setActiveSlider(newIndex);
   };
+  
   return (
     <>
       <div className="flex relative flex-col gap-5">
-        <p className=" text-gray-600 font-poppins text-base">
+        <p className=" text-gray-600 font-poppins text-base h-[150px]">
           {testimonialData[activeSlider].testimonial}
         </p>
         <div className="flex gap-3">

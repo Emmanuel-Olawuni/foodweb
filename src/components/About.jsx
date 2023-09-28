@@ -1,27 +1,14 @@
 import React from "react";
-import Image1 from "@/../public/images/image1.png";
-import Image2 from "@/../public/images/image2.png";
-import Image3 from "@/../public/images/image3.png";
-import Image from "next/image";
+
 import Button from "./Button";
 import { BsPlay } from "react-icons/bs";
+import AboutImages from "./AnimatedImages/AboutImages";
 
 const About = () => {
   return (
     <section className=" mt-24">
       <div className="flex flex-col md:flex-row m-auto items-center justify-around">
-        <div className="parent">
-          <div className="div1">
-            <Image src={Image1} height={300} width={300} alt="image-food" />
-          </div>
-          <div className="div2">
-            <Image src={Image2} height={300} width={300}  alt="image-food"/>
-          </div>
-          <div className="div3">
-            <Image src={Image3} height={300} width={300} alt="image-food" />
-          </div>
-        </div>
-
+  <AboutImages />
         <div className="md:w-1/3 flex gap-8 md:gap-4 flex-col">
           <h4 className=" text-2xl font-miniver font-normal text-green heading">
             About Us

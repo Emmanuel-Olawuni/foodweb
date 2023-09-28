@@ -1,29 +1,16 @@
 import React from "react";
-import Image3 from "@/../public/images/image3.png";
-import Hand from "@/../public/images/hand.png";
-import Image from "next/image";
+
 import { BsTruck } from "react-icons/bs";
 import { PiHamburgerLight } from "react-icons/pi";
 import { CiTimer } from "react-icons/ci";
 import { LuMountain } from "react-icons/lu";
-import Lettuce from "@/../public/images/leftImage2.png";
-
+import ChooseImages from "./AnimatedImages/ChooseImages";
 
 const Choose = () => {
   return (
     <section className=" mt-32">
       <div className=" flex flex-col md:flex-row">
-        <div className="imagecontainer relative">
-          <div className="choose1">
-            <Image src={Hand} width={300} alt="food" />
-          </div>
-          <div className="choose2 ">
-            <Image src={Image3} priority alt="food" />
-          </div>
-          <div className=" absolute -right-6 -top-4 -z-10">
-            <Image src={Lettuce} alt="lettuce" />
-          </div>
-        </div>
+      <ChooseImages />
         <div className="md:w-1/3 m-auto flex gap-4 flex-col">
           <h4 className=" text-2xl font-miniver font-normal text-green heading">
             WHy Choose Us
@@ -59,9 +46,7 @@ const Choose = () => {
         </div>
       </div>
 
-      <div>
-     {/* <Tab /> */}
-      </div>
+      <div>{/* <Tab /> */}</div>
     </section>
   );
 };
