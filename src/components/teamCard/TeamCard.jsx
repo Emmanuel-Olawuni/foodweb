@@ -32,7 +32,7 @@ const teamMembers = [
 ];
 const TeamCard = () => {
   return(
-    <div className=" flex flex-col md:flex-row gap-4 items-center justify-center">
+    <div className=" flex flex-col md:flex-row md:gap-6 gap-32 items-center justify-center">
       {
          teamMembers.map((member) => (
           <div key={member.id} className=" relative flex justify-center items-center w-[200px] h-[200px] flex-col">

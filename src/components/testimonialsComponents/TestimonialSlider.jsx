@@ -48,7 +48,7 @@ const TestimonialSlider = () => {
   return (
     <>
       <div className="flex relative flex-col gap-5">
-        <p className=" text-gray-600 font-poppins text-base h-[150px]">
+        <p className=" text-gray-600 font-poppins text-base  h-[210px] md:h-[150px]">
           {testimonialData[activeSlider].testimonial}
         </p>
         <div className="flex gap-3">

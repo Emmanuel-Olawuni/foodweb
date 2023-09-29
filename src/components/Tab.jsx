@@ -8,7 +8,7 @@ const Tab = () => {
 
   const setActiveState = (key) => {
     setActive(key);
-    console.warn(active);
+ 
   };
   return (
     <div>

@@ -28,7 +28,7 @@ const FlowerHead = ({ title, show }) => {
         ""
       ) : (
         <p
-          className=" balance text-center w-full md:w-1/2 p-3 text-gray-700 text-[18px] flex items-center justify-center
+          className=" balance text-center w-full md:w-1/2 p-3 text-gray-700 text-base md:text-[18px] flex items-center justify-center
         z-20 "
         data-aos-easing="ease-in-sine"
         data-aos="fade-right" 

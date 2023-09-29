@@ -7,7 +7,7 @@ import FlowerHead from "./FlowerHead";
 const Category = () => {
   return (
     <section className=" relative">
-      <div className=" absolute top-[-70px] left-[-170px] z-10 object-contain h-[220px] w-[220px]">
+      <div className=" absolute top-[-120px] left-[-120px] md:top-[-70px] md:left-[-170px] z-10 object-contain h-[220px] w-[220px]">
         <Image src={leftImage} className=" object-contain" alt="food" />
       </div>
 

@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const ProductCard = ({title , items}) => {
   return (
-    <div className="flex flex-col justify-center w-[300px]">
+    <div className="flex flex-col justify-center w-auto md:w-[300px]">
       <div className="productCardImag object-contain">
         <Image
           src={ProductImage}

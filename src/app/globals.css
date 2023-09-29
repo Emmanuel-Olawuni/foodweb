@@ -1,7 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&family=Miniver&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+:root {
+  --miniver: "Miniver", cursive;
 
+}
 ::-webkit-scrollbar {
   display: none;
 }
@@ -10,12 +14,14 @@
   margin: 0;
   box-sizing: border-box;
 }
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
 .balance {
   text-wrap: balance;
 }
-.mode-text {
-  writing-mode: vertical-lr;
-}
+
 .parent {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -69,12 +75,13 @@ img {
   height: 60px;
   font-size: 16px;
 }
-.choose-card {
+/* .choose-card {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
   grid-column-gap: 20px;
   grid-row-gap: 20px;
+  width: 100%;
 }
 
 .card-1 {
@@ -88,7 +95,7 @@ img {
 }
 .card-4 {
   grid-area: 2 / 2 / 3 / 3;
-}
+} */
 
 .team-section {
   background-image: linear-gradient(45deg, #1a5a00d3, #1a5a00d3),
@@ -98,9 +105,9 @@ img {
   background-position: center;
   background-size: contain;
 }
-@media(max-width: 768px) {
-.cards{
-  
-}
+/* Add this to your global CSS or a separate CSS file */
+.no-padding {
+  padding: 0;
+  margin: 0;
 }
 

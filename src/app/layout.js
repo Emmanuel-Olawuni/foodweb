@@ -36,12 +36,16 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${inter.variable} ${miniver.variable} ${poppins.variable} pl-8 py-1 md:px-20 md:py-2 `}
+        className={`${inter.variable} ${miniver.variable} ${poppins.variable} `}
       >
+        <div className="p-6 md:px-20 md:py-2 ">
+
+        
         <Header />
         
         {children}
-        <Footer />
+        </div>
+        <Footer  />
       </body>
       
     </html>

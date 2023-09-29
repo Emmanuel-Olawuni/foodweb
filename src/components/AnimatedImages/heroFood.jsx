@@ -10,12 +10,8 @@ import { motion } from "framer-motion";
 
 const HeroFood = () => {
   return (
-    <div className="relative hidden md:block">
-      <motion.div
-      initial={{rotate: 360}}
-      animate={{rotate: 0}}
-      transition={{duration: 1.9 , type: 'tween' , ease:'easeIn' , easings: [0.4, 0.5] , }}
-      >
+    <div className="relative hidden md:block ">
+    
         <Image
           src={Food}
           alt="food"
@@ -23,7 +19,6 @@ const HeroFood = () => {
           width="80%"
           className=" z-[80] pointer-events-none "
         />
-      </motion.div>
       <div>
         <Image
           src={Lettuce}

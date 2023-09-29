@@ -15,10 +15,10 @@ const ChooseImages = () => {
   return (
     <div className="imagecontainer relative">
       <div className="choose1">
-        <Image src={Hand} width={300} alt="food" data-aos="fade-down" />
+        <Image src={Hand} width={300} alt="food" data-aos="fade-down" data-aos-anchor-placement="center-bottom"/>
       </div>
       <div className="choose2 ">
-        <Image src={Image3} priority alt="food" data-aos="fade-up" />
+        <Image src={Image3} priority alt="food" data-aos="fade-up"/>
       </div>
       <div className=" absolute -right-6 -top-4 -z-10">
         <Image src={Lettuce} alt="lettuce" />

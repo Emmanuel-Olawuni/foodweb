@@ -12,7 +12,7 @@ const AboutImages = () => {
     Aos.init();
   }, []);
   return (
-    <div className="parent">
+    <div className="parent overflow-hidden">
       <div className="div1">
         <Image
           src={Image1}

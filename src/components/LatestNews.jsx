@@ -4,9 +4,9 @@ import NewsCard from './NewsCard'
 
 const LatestNews = () => {
   return (
-   <section className='relative mt-32'>
+   <section className='w-full relative mt-32'>
     <FlowerHead title='Latest News & Blog' />
-    <div className=' flex justify-around gap-8 mt-6 flex-col md:flex-row'>
+    <div className=' flex justify-around items-center gap-8 mt-6 flex-col md:flex-row  '>
         <NewsCard />
         <NewsCard />
         <NewsCard />

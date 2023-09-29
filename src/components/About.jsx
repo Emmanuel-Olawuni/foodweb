@@ -27,11 +27,11 @@ const About = () => {
             <Button buttonTypes="normal">Show More</Button>
 
             <div>
-              <div className="  flex items-center justify-center gap-2 ">
+              <div className="  flex items-center justify-center gap-2 cursor-pointer ">
                 <div className="w-[50px] h-[50px] rounded-full bg-green grid place-items-center">
                   <BsPlay color="white" size={30} className="" />
                 </div>
-                <p className=" text-gray-900 font-poppins font-semibold text-sm">
+                <p className=" text-gray-900 font-poppins font-semibold text-sm cursor-pointer">
                   Watch Video
                 </p>
               </div>

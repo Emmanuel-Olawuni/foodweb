@@ -12,7 +12,7 @@ const Partners = () => {
   return (
     <section className=" mt-32">
       <FlowerHead title=" partners & clients" show={false} />
-      <h4 className="  text-center font-bold text-2xl text-gray-700  font-inter">
+      <h4 className="  text-center font-bold text-base md:text-2xl text-gray-700  font-inter">
         We work with the best people
       </h4>
       <div className="brands grid grid-cols-2 place-items-center md:flex  md:flex-row justify-between h-[auto] md:h-[120px] mt-12 object-contain">

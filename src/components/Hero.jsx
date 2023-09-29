@@ -7,7 +7,7 @@ import HeroFood from "./AnimatedImages/heroFood";
 
 const Hero = () => {
   return (
-    <div className="hero_container h-[70vh] flex  items-center md:z-30 relative mt-[8rem] md:mt-0 hero_container">
+    <div className="hero_container h-[90vh] md:h-[70vh] flex  items-center md:z-30 relative mt-[3rem] md:mt-0 hero_container">
       <div className=" flex flex-around flex-col md:flex-row items-center justify-center">
         <div className=" flex flex-col gap-5">
           <p className=" font-miniver text-3xl md:text-lg text-green  font-normal">

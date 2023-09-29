@@ -7,12 +7,15 @@ import { HiOutlinePhone } from "react-icons/hi";
 import { BsEnvelopeOpen, BsClock } from "react-icons/bs";
 import flower from "@/../public/images/flower.png";
 
-
 const Footer = () => {
   return (
-    <footer className=" relative">
-      <Image alt="flower " src={flower} className=" absolute -top-32 -left-16" />
-      <div className=" flex flex-col md:flex-row   justify-around items-start mt-10 bg-gray-100 py-8 px-2">
+    <footer className="w-full relative no-padding">
+      <Image
+        alt="flower "
+        src={flower}
+        className=" absolute  -top-16 -left-16 md:-top-32 md:-left-16"
+      />
+      <div className=" flex flex-col md:flex-row  gap-8 justify-around items-start md:mt-10 bg-gray-100 py-8 px-2">
         <div className="flex flex-col gap-3">
           <Image src={Logo} priority alt="Logo" />
           <p className=" text-gray-700 text-base font-inter font-semibold">
@@ -32,7 +35,7 @@ const Footer = () => {
             </button>
           </div>
         </div>
-        <div className=" flex flex-col gap-2">
+        <div className=" flex flex-col gap-3">
           <p className=" font-inter font-bold text-lg text-gray-800  ">
             Contact
           </p>
@@ -75,15 +78,18 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-      
       </div>
-      <div className="bg-green text-white flex flex-col md:flex-row justify-around items-center p-3 font-inter text-sm">
-       <div>
-       Copyright &ncopy; 2023. All right reserved. 
-       </div>
-       <div>
-        Designed by Olawuni Emmanuel. Email: <a href="mailto:emmanuelolawuni2001@gmail.com" className=" underline underline-offset-2 decoration-white ">emmanuelolawuni2001@gmail.com</a>
-       </div>
+      <div className="bg-green text-white flex flex-col md:flex-row justify-center gap-3 md:justify-around items-center p-3 font-inter text-sm">
+        <div>Copyright &copy; 2023. All right reserved.</div>
+        <div className=" text-center p-2">
+          Designed by Olawuni Emmanuel. Email:{" "}
+          <a
+            href="mailto:emmanuelolawuni2001@gmail.com"
+            className=" underline underline-offset-2 decoration-white "
+          >
+            emmanuelolawuni2001@gmail.com
+          </a>
+        </div>
       </div>
     </footer>
   );
