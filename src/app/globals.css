@@ -75,28 +75,6 @@ img {
   height: 60px;
   font-size: 16px;
 }
-/* .choose-card {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  grid-column-gap: 20px;
-  grid-row-gap: 20px;
-  width: 100%;
-}
-
-.card-1 {
-  grid-area: 1 / 1 / 2 / 2;
-}
-.card-2 {
-  grid-area: 1 / 2 / 2 / 3;
-}
-.card-3 {
-  grid-area: 2 / 1 / 3 / 2;
-}
-.card-4 {
-  grid-area: 2 / 2 / 3 / 3;
-} */
-
 .team-section {
   background-image: linear-gradient(45deg, #1a5a00d3, #1a5a00d3),
     url("../../public/images/team.png");
@@ -105,9 +83,16 @@ img {
   background-position: center;
   background-size: contain;
 }
-/* Add this to your global CSS or a separate CSS file */
 .no-padding {
   padding: 0;
   margin: 0;
+}
+/* @media(max-width:768px){ */
+  .hero_container{
+    background: url('../../public/images/restuarant.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  
 }
 
